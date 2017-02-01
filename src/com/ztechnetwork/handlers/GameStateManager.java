@@ -9,6 +9,7 @@ import com.ztechnetwork.gamestates.LevelSelectState;
 import com.ztechnetwork.gamestates.MenuState;
 import com.ztechnetwork.gamestates.PauseGameState;
 import com.ztechnetwork.gamestates.PlayingState;
+import com.ztechnetwork.gamestates.SettingsState;
 import com.ztechnetwork.main.GamePanel;
 
 public class GameStateManager {
@@ -24,6 +25,7 @@ public class GameStateManager {
 	public static final int HOW_TO_PLAY_STATE = 4;
 	public static final int CUSTOM_LEVEL_STATE = 5;
 	public static final int PAUSE_GAME_STATE = 6;
+	public static final int SETTINGS_STATE = 7;
 	
 	public GameStateManager() {
 		
@@ -49,6 +51,8 @@ public class GameStateManager {
 			gameState = new CustomLevelState(this);
 		else if(state == PAUSE_GAME_STATE)
 			gameState = new PauseGameState(this);
+		else if(state == SETTINGS_STATE)
+			gameState = new SettingsState(this);
 	}
 	
 	public void setState(int state) {
