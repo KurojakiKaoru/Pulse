@@ -16,7 +16,7 @@ public class Game {
 	
 	public static void main(String[] args) {	
 	
-		window = new JFrame("Pulse Beta v2.0.0 (Build 5)");
+		window = new JFrame("Pulse v2.0.0 (Build 5)");
 		window.add(new GamePanel());
 		window.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		window.setResizable(false);
