@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" xml:lang="en-US">
+  <id>tag:Pulse_News</id>
+  <link type="text/html" rel="alternate" href="https://github.com/LeronDoesGaming/Pulse/"/>
+  <title>Latest News on Pulse</title>
+  <updated>2018-05-06T16:41:31Z</updated>
+  <entry>
+    <id>tag:v1.10.0</id>
+    <link type="text/html" rel="alternate" href="https://ztechnetwork.wixsite.com/ztech"/>
+    <title>
+        Patch v1.10.0 is live!
+    </title>
+    <updated>2018-05-06T16:41:31Z</updated>
+    <media:thumbnail height="1280" width="720" url="https://avatars0.githubusercontent.com/u/18101299?s=30&amp;v=4"/>
+    <author>
+      <name>LeronDoesGaming</name>
+      <uri>https://github.com/LeronDoesGaming</uri>
+    </author>
+  </entry>
