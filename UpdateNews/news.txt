@@ -1,1 +1,1 @@
-Pulse v1.10.0 is now live!
+Pre-Release 1 of Pulse v1.10.0 is now live!
